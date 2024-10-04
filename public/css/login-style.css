@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'PB';
+    src: url('/fonts/Poppins-Black.ttf') format('truetype');
+}
+
+body {
+  font-family: "PB", sans-serif;
+  background-image: url(/public/images/Fondo.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 700px;
+  height: 800px;
+  background-color: white;
+  border: 6px solid black;
+  padding: 40px;
+  border-radius: 30px;
+  box-shadow: 3px 6px 9px black;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 30px;
+  font-size: 4.5em;
+  color: #1f992a;
+  font-style: italic;
+}
+
+label {
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 27px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 5px solid #1f992a;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+button {
+  background-color: #1f992a;
+  color: white;
+  padding: 12px 10px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 200;
+  font-size: 25px;
+  width: 45%;
+}
+
+button:hover {
+  background-color: black;
+  color: #1f992a;
+}
+
+.enviar button {
+  margin-top: 50px;
+  margin-left: 185px;
+}
+
+.number-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+  padding: 15px;
+  margin-bottom: 75px;
+  border: 5px solid #1f992a;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.number-input input {
+  width: 40px;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+}
+
+.number-input button {
+  background-color: #1f992a;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  width: 25px;
+}
+
+.number-input button:hover {
+  background-color: black;
+  color: #1f992a;
+}
+
+@media (max-width: 991px) {
+  body {
+    background-image: url(/public/images/Fondo2.png);
+  }
+
+  .container {
+    position: relative;
+    width: 300px;
+    height: 625px;
+  }
+
+  h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-left: -10px;
+    margin-top: 5px;
+  }
+
+  label {
+    font-size: 20px;
+    margin-top: -20px;
+  }
+
+  .np {
+    margin-top: 25px;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 25px;
+    width: 70%;
+  }
+
+  .enviar button {
+    margin-top: 30px;
+    margin-left: 47px;
+    font-size: 20px;
+  }
+
+  .number-input {
+    width: 38%;
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+
+  .number-input input {
+    width: 50px;
+    font-size: 15px;
+  }
+
+  .number-input button {
+    padding: 2px;
+    font-size: 15px;
+    width: 30px;
+  }
+}

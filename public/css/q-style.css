@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'PB';
+    src: url('/fonts/Poppins-Black.ttf') format('truetype');
+}
+
+body {
+  font-family: "PB", sans-serif;
+  background-image: url(/public/images/Fondo.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 700px;
+  height: 800px;
+  background-color: white;
+  border: 6px solid black;
+  padding: 40px;
+  border-radius: 30px;
+  box-shadow: 3px 6px 9px black;
+}
+
+.icon::before {
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 5px;
+  font-size: 4.5em;
+  color: #1f992a;
+  font-style: italic;
+}
+
+button {
+  background-color: #1f992a;
+  color: white;
+  padding: 12px 10px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 200;
+  font-size: 25px;
+  width: 50%;
+}
+
+button:hover {
+  background-color: black;
+  color: #1f992a;
+}
+
+.home button{
+  font-size: 20px;
+  width: 7%;
+}

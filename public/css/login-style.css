@@ -82,9 +82,20 @@ button:hover {
   width: 7%;
 }
 
+.np{
+  margin-top: -20px;
+}
+
+.correo{
+  margin-top: -30px;
+}
+
 .enviar button {
-  margin-top: 40px;
+  margin-top: 45px;
   margin-left: 170px;
+  padding: 20px 0 20px 0;
+  border-radius: 50px;
+  font-size: 40px;
 }
 
 .number-input {

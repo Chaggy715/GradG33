@@ -26,10 +26,16 @@ body {
   box-shadow: 3px 6px 9px black;
 }
 
+.icon::before {
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
 h1 {
   text-align: center;
   margin-bottom: 60px;
-  margin-top: 30px;
+  margin-top: 5px;
   font-size: 4.5em;
   color: #1f992a;
   font-style: italic;
@@ -69,6 +75,11 @@ button {
 button:hover {
   background-color: black;
   color: #1f992a;
+}
+
+.home button{
+  font-size: 20px;
+  width: 7%;
 }
 
 .enviar button {

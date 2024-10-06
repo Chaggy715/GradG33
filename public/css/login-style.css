@@ -63,7 +63,7 @@ button {
   cursor: pointer;
   font-weight: 200;
   font-size: 25px;
-  width: 45%;
+  width: 50%;
 }
 
 button:hover {
@@ -72,8 +72,8 @@ button:hover {
 }
 
 .enviar button {
-  margin-top: 50px;
-  margin-left: 185px;
+  margin-top: 40px;
+  margin-left: 170px;
 }
 
 .number-input {

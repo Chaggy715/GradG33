@@ -1,10 +1,15 @@
 @font-face {
-    font-family: 'PB';
+    font-family: 'PBL';
     src: url('/fonts/Poppins-Black.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'PB';
+    src: url('/fonts/Poppins-Bold.ttf') format('truetype');
+}
+
 body {
-  font-family: "PB", sans-serif;
+  font-family: "PBL", sans-serif;
   background-image: url(/public/images/Fondo.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -61,6 +66,7 @@ input[type="email"] {
 }
 
 button {
+  font-family: 'PB';
   background-color: #1f992a;
   color: white;
   padding: 12px 10px;

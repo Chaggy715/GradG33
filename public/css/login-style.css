@@ -188,7 +188,7 @@ button:hover {
 
   .enviar button {
     width: 50%;
-    margin-top: 5px;
+    margin-top: 3px;
     margin-left: 67px;
     padding: 10px;
     font-size: 15px;
@@ -208,8 +208,10 @@ button:hover {
 
   .number-input button {
     padding: 0;
-    padding-right: 0;
-    padding-left: 1px;
+    padding-right: 1px;
+    padding-left: 2px;
+    padding-top: 1px;
+    padding-bottom: 1px;
     font-size: 15px;
     width: 18px;
   }

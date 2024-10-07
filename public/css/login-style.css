@@ -142,13 +142,13 @@ button:hover {
   .container {
     position: relative;
     width: 280px;
-    height: 600px;
+    height: 550px;
     padding: 15px 25px 25px 25px;
   }
 
   .home button{
     font-size: 10px;
-    padding-left: 10px;
+    padding-left: 9px;
     margin-left: -10px;
   }
 
@@ -187,8 +187,8 @@ button:hover {
   }
 
   .enviar button {
-    margin-top: 25px;
-    margin-left: 42px;
+    margin-top: 1px;
+    margin-left: 40px;
     font-size: 20px;
   }
 
@@ -206,6 +206,7 @@ button:hover {
 
   .number-input button {
     padding: 0;
+    padding-right: -1px;
     font-size: 15px;
     width: 18px;
   }

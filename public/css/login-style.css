@@ -120,9 +120,9 @@ button:hover {
 .number-input button {
   background-color: #1f992a;
   color: white;
-  padding: 5px;
+  padding: 1.5px;
   border: none;
-  border-radius: 10px;
+  border-radius: 20px;
   cursor: pointer;
   font-weight: bold;
   font-size: 20px;
@@ -141,30 +141,43 @@ button:hover {
 
   .container {
     position: relative;
-    width: 300px;
-    height: 625px;
+    width: 280px;
+    height: 600px;
+    padding: 15px 25px 25px 25px;
+  }
+
+  .home button{
+    font-size: 10px;
+    padding-left: 10px;
+    margin-left: -10px;
   }
 
   h1 {
-    font-size: 50px;
+    font-size: 42px;
     text-align: center;
-    margin-left: -10px;
-    margin-top: 5px;
+    margin-left: -15px;
+    margin-top: 15px;
+    margin-bottom: 65px;
   }
 
   label {
     font-size: 20px;
-    margin-top: -20px;
+    margin-top: -45px;
   }
 
   .np {
-    margin-top: 25px;
+    margin-top: 45px;
+  }
+
+  .correo{
+    margin-top: 60px;
   }
 
   input[type="text"],
   input[type="email"] {
     margin-bottom: 20px;
     font-size: 15px;
+    margin-top: -15px;
   }
 
   button {
@@ -174,14 +187,15 @@ button:hover {
   }
 
   .enviar button {
-    margin-top: 30px;
-    margin-left: 47px;
+    margin-top: 25px;
+    margin-left: 42px;
     font-size: 20px;
   }
 
   .number-input {
-    width: 38%;
+    width: 48%;
     padding: 10px;
+    margin-top: -15px;
     margin-bottom: 50px;
   }
 
@@ -191,8 +205,8 @@ button:hover {
   }
 
   .number-input button {
-    padding: 2px;
+    padding: 0;
     font-size: 15px;
-    width: 30px;
+    width: 18px;
   }
 }

@@ -1,10 +1,15 @@
 @font-face {
-    font-family: 'PB';
+    font-family: 'PBL';
     src: url('/fonts/Poppins-Black.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'PB';
+    src: url('/fonts/Poppins-Bold.ttf') format('truetype');
+}
+
 body {
-  font-family: "PB", sans-serif;
+  font-family: "PBL", sans-serif;
   background-image: url(/public/images/Fondo.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -42,6 +47,7 @@ h1 {
 }
 
 button {
+  font-family: 'PB';
   background-color: #1f992a;
   color: white;
   padding: 12px 10px;
@@ -61,4 +67,37 @@ button:hover {
 .home button{
   font-size: 20px;
   width: 7%;
+}
+
+@media (max-width: 991px){
+  body {
+    background-image: url(/public/images/Fondo2.png);
+  }
+
+  .container {
+    position: relative;
+    width: 280px;
+    height: 550px;
+    padding: 15px 25px 25px 25px;
+  }
+
+  .home button{
+    font-size: 10px;
+    padding-left: 9px;
+    margin-left: -10px;
+  }
+
+  h1 {
+    font-size: 42px;
+    text-align: center;
+    margin-left: -5px;
+    margin-top: 15px;
+    margin-bottom: 65px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 25px;
+    width: 70%;
+  }
 }

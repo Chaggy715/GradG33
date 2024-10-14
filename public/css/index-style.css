@@ -61,7 +61,7 @@ button:hover {
   color: #1f992a;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 957px) {
   body {
     background-image: url(/public/images/Fondo2.png);
   }

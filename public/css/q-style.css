@@ -1,11 +1,11 @@
 @font-face {
-    font-family: 'PBL';
-    src: url('/fonts/Poppins-Black.ttf') format('truetype');
+  font-family: "PBL";
+  src: url("/fonts/Poppins-Black.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'PB';
-    src: url('/fonts/Poppins-Bold.ttf') format('truetype');
+  font-family: "PB";
+  src: url("/fonts/Poppins-Bold.ttf") format("truetype");
 }
 
 body {
@@ -46,8 +46,19 @@ h1 {
   font-style: italic;
 }
 
+p {
+  font-size: 30px;
+  margin: 20px;
+  margin-left: 44px;
+}
+
+.q {
+  font-size: 35px;
+  margin: 20px;
+}
+
 button {
-  font-family: 'PB';
+  font-family: "PB";
   background-color: #1f992a;
   color: white;
   padding: 12px 10px;
@@ -64,12 +75,12 @@ button:hover {
   color: #1f992a;
 }
 
-.home button{
+.home button {
   font-size: 20px;
   width: 7%;
 }
 
-@media (max-width: 957px){
+@media (max-width: 957px) {
   body {
     background-image: url(/public/images/Fondo2.png);
   }
@@ -81,7 +92,7 @@ button:hover {
     padding: 15px 25px 25px 25px;
   }
 
-  .home button{
+  .home button {
     font-size: 10px;
     padding-left: 9px;
     margin-left: -10px;
@@ -92,6 +103,21 @@ button:hover {
     text-align: center;
     margin-top: 15px;
     margin-bottom: 65px;
+  }
+
+  .qya{
+    margin-top: -20px;
+  }
+
+  p {
+    font-size: 16px;
+    margin: 10px;
+    margin-left: 22px;
+  }
+
+  .q {
+    font-size: 20px;
+    margin: 10px;
   }
 
   button {

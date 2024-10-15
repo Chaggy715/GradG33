@@ -94,7 +94,7 @@ button:hover {
   .container {
     position: relative;
     width: 280px;
-    height: 550px;
+    height: 570px;
     padding: 15px 25px 25px 25px;
   }
 
@@ -104,11 +104,17 @@ button:hover {
     margin-left: -10px;
   }
 
+  .ubi button{
+    font-size: 13px;
+    margin-left: 53px;
+    width: 38%;
+  }
+
   h1 {
     font-size: 42px;
     text-align: center;
-    margin-top: 15px;
-    margin-bottom: 65px;
+    margin-top: 10px;
+    margin-bottom: 50px;
   }
 
   .qya{

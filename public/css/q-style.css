@@ -47,14 +47,18 @@ h1 {
 }
 
 p {
+  color: #1f992a;
   font-size: 24px;
   margin: 20px;
   margin-left: 44px;
+  text-shadow: 2px 1px 0 black;
 }
 
 .q {
+  color: #eed600;
   font-size: 30px;
   margin: 20px;
+  text-shadow: 0 2px 4px color(srgb red green blue);
 }
 
 button {

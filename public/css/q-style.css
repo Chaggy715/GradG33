@@ -48,17 +48,16 @@ h1 {
 
 p {
   color: #1f992a;
-  font-size: 24px;
+  font-size: 30px;
   margin: 20px;
   margin-left: 44px;
-  text-shadow: 2px 1px 0 black;
+  text-shadow: 3px 3px 0 black;
 }
 
 .q {
   color: #eed600;
-  font-size: 30px;
+  font-size: 36px;
   margin: 20px;
-  text-shadow: 0 2px 4px color(srgb red green blue);
 }
 
 button {
@@ -80,9 +79,9 @@ button:hover {
 }
 
 .ubi button{
-  margin-left: 95px;
-  font-size: 18px;
-  width: 20%;
+  margin-left: 113px;
+  font-size: 22px;
+  width: 25%;
 }
 
 .home button {

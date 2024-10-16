@@ -97,7 +97,7 @@ button:hover {
   .container {
     position: relative;
     width: 280px;
-    height: 570px;
+    height: 690px;
     padding: 15px 25px 25px 25px;
   }
 
@@ -109,7 +109,7 @@ button:hover {
 
   .ubi button{
     font-size: 15px;
-    margin-left: 47px;
+    margin-left: 59px;
     width: 41.9%;
   }
 
@@ -126,13 +126,13 @@ button:hover {
 
   p {
     text-shadow: 1.5px 1.5px 0 black;
-    font-size: 16px;
+    font-size: 18px;
     margin: 10px;
-    margin-left: 22px;
+    margin-left: 25px;
   }
 
   .q {
-    font-size: 20px;
+    font-size: 22px;
     margin: 10px;
   }
 

@@ -51,11 +51,10 @@ p {
   font-size: 30px;
   margin: 20px;
   margin-left: 44px;
-  text-shadow: 3px 3px 0 black;
 }
 
 .q {
-  color: #eed600;
+  color: goldenrod;
   font-size: 36px;
   margin: 20px;
 }

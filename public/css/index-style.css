@@ -36,14 +36,14 @@ h1 {
   margin-bottom: 40px;
   margin-top: 10px;
   font-size: 4.5em;
-  color: black;
+  color: #33576f;
   font-style: italic;
   margin-left: -10px;
 }
 
 button {
   font-family: 'PB';
-  background-color: #1f992a;
+  background-color: #33576f;
   color: white;
   padding: 12px 10px;
   border: none;
@@ -58,7 +58,7 @@ button {
 
 button:hover {
   background-color: black;
-  color: #1f992a;
+  color: #c6dbe2;
 }
 
 @media (max-width: 957px) {
